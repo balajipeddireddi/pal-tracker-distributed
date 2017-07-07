@@ -11,8 +11,6 @@ import org.springframework.web.client.RestOperations;
 
 import java.util.TimeZone;
 
-@EnableCircuitBreaker
-
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
